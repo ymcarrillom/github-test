@@ -1,0 +1,167 @@
+2024-10-08 22:32:47.547 [info] [main] Log level: Info
+2024-10-08 22:32:47.548 [info] [main] Validating found git in: "git"
+2024-10-08 22:32:47.548 [info] [main] Using git "2.43.0" from "git"
+2024-10-08 22:32:47.548 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-08 22:32:47.548 [info] > git rev-parse --show-toplevel [694ms]
+2024-10-08 22:32:47.548 [info] > git rev-parse --git-dir --git-common-dir [81ms]
+2024-10-08 22:32:47.548 [info] [Model][openRepository] Opened repository: /home/yonatancarrillo
+2024-10-08 22:32:47.548 [info] > git rev-parse --show-toplevel [185ms]
+2024-10-08 22:32:47.548 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-08 22:32:47.548 [info] > git config --get commit.template [203ms]
+2024-10-08 22:32:47.602 [info] > git show --textconv :portafolio-personal/introduccion/javascript/operadoreslogiscos.js [309ms]
+2024-10-08 22:32:47.604 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/operadoreslogiscos.js [292ms]
+2024-10-08 22:32:47.678 [info] > git cat-file -s 999d36676c946ce3e8e65aa41b7fe3a1ee715179 [47ms]
+2024-10-08 22:32:47.680 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [86ms]
+2024-10-08 22:32:47.735 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/yonatancarrillo/.git/refs/remotes/origin/main'
+2024-10-08 22:32:47.784 [info] > git rev-parse refs/remotes/origin/main [49ms]
+2024-10-08 22:32:47.929 [info] > git check-ignore -v -z --stdin [151ms]
+2024-10-08 22:32:47.997 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [90ms]
+2024-10-08 22:32:48.492 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/operadoreslogiscos.js [44ms]
+2024-10-08 22:32:48.512 [info] > git cat-file -s 999d36676c946ce3e8e65aa41b7fe3a1ee715179 [8ms]
+2024-10-08 22:32:48.573 [info] > git show --textconv :portafolio-personal/introduccion/javascript/operadoreslogiscos.js [16ms]
+2024-10-08 22:32:48.982 [info] > git fetch [2233ms]
+2024-10-08 22:32:48.982 [info] git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-10-08 22:32:49.301 [info] > git status -z -uall [1465ms] (cancelled)
+2024-10-08 22:32:49.304 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [164ms]
+2024-10-08 22:32:50.106 [info] > git config --local branch.main.vscode-merge-base [713ms]
+2024-10-08 22:32:50.106 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-08 22:32:50.165 [info] > git config --get commit.template [899ms]
+2024-10-08 22:32:50.210 [info] > git config --get commit.template [154ms]
+2024-10-08 22:32:50.509 [info] > git reflog main --grep-reflog=branch: Created from *. [345ms]
+2024-10-08 22:32:50.564 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [299ms]
+2024-10-08 22:32:50.565 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [335ms]
+2024-10-08 22:32:50.600 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/yonatancarrillo/.git/refs/remotes/origin/main'
+2024-10-08 22:32:50.617 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/yonatancarrillo/.git/refs/remotes/origin/main'
+2024-10-08 22:32:50.626 [info] > git rev-parse refs/remotes/origin/main [26ms]
+2024-10-08 22:32:50.760 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [200ms]
+2024-10-08 22:32:50.760 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-08 22:32:50.761 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-08 22:32:50.782 [info] > git rev-parse refs/remotes/origin/main [165ms]
+2024-10-08 22:32:50.844 [info] > git merge-base refs/heads/main refs/remotes/origin/main [71ms]
+2024-10-08 22:32:50.862 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [102ms]
+2024-10-08 22:32:50.879 [info] > git diff --name-status -z --diff-filter=ADMR 49e58478b4d04713056e6d6b8c3c8eab88ffeca5...refs/remotes/origin/main [16ms]
+2024-10-08 22:32:50.880 [info] > git merge-base refs/heads/main refs/remotes/origin/main [55ms]
+2024-10-08 22:32:50.976 [info] > git diff --name-status -z --diff-filter=ADMR 49e58478b4d04713056e6d6b8c3c8eab88ffeca5...refs/remotes/origin/main [84ms]
+2024-10-08 22:33:00.817 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/index.html [28ms]
+2024-10-08 22:33:00.835 [info] > git show --textconv :portafolio-personal/introduccion/javascript/index.html [59ms]
+2024-10-08 22:33:00.835 [info] > git cat-file -s 8a0ab9556d2b4ed859ce5d616843f98e7c459f42 [5ms]
+2024-10-08 22:33:08.619 [info] > git status -z -uall [17926ms] (cancelled)
+2024-10-08 22:33:24.061 [info] > git check-ignore -v -z --stdin [49ms]
+2024-10-08 22:34:23.312 [info] > git show --textconv :portafolio-personal/introduccion/javascript/operadoreslogiscos.js [12ms]
+2024-10-08 22:34:23.322 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/operadoreslogiscos.js [13ms]
+2024-10-08 22:34:23.331 [info] > git cat-file -s 999d36676c946ce3e8e65aa41b7fe3a1ee715179 [3ms]
+2024-10-08 22:36:44.737 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/operadoreslogiscos.js [6ms]
+2024-10-08 22:36:44.745 [info] > git cat-file -s 999d36676c946ce3e8e65aa41b7fe3a1ee715179 [2ms]
+2024-10-08 22:36:44.768 [info] > git show --textconv :portafolio-personal/introduccion/javascript/operadoreslogiscos.js [8ms]
+2024-10-08 22:36:45.191 [info] > git fetch [1702ms]
+2024-10-08 22:36:45.191 [info] git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-10-08 22:36:45.205 [info] > git config --get commit.template [7ms]
+2024-10-08 22:36:45.206 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-08 22:36:45.212 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/yonatancarrillo/.git/refs/remotes/origin/main'
+2024-10-08 22:36:45.214 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-10-08 22:36:45.244 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [19ms]
+2024-10-08 22:36:48.486 [info] > git status -z -uall [3268ms] (cancelled)
+2024-10-08 22:40:09.529 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/operadoreslogiscos.js [15ms]
+2024-10-08 22:40:09.536 [info] > git cat-file -s 999d36676c946ce3e8e65aa41b7fe3a1ee715179 [2ms]
+2024-10-08 22:40:09.558 [info] > git show --textconv :portafolio-personal/introduccion/javascript/operadoreslogiscos.js [7ms]
+2024-10-08 22:40:10.097 [info] > git fetch [1803ms]
+2024-10-08 22:40:10.098 [info] git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-10-08 22:40:10.118 [info] > git config --get commit.template [10ms]
+2024-10-08 22:40:10.122 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-10-08 22:40:10.130 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/yonatancarrillo/.git/refs/remotes/origin/main'
+2024-10-08 22:40:10.133 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-10-08 22:40:10.174 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [23ms]
+2024-10-08 22:40:12.272 [info] > git status -z -uall [2132ms] (cancelled)
+2024-10-08 22:42:52.949 [info] > git show --textconv :portafolio-personal/introduccion/javascript/arreglos.js [27ms]
+2024-10-08 22:42:52.964 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/arreglos.js [22ms]
+2024-10-08 22:42:52.979 [info] > git cat-file -s bbd144b1531217c04fa3a791418cb7a46a458c34 [5ms]
+2024-10-08 22:43:02.281 [info] > git show --textconv :portafolio-personal/introduccion/javascript/index.html [9ms]
+2024-10-08 22:43:02.288 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/index.html [9ms]
+2024-10-08 22:43:02.296 [info] > git cat-file -s 8a0ab9556d2b4ed859ce5d616843f98e7c459f42 [2ms]
+2024-10-08 22:43:12.074 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/index.html [10ms]
+2024-10-08 22:43:12.083 [info] > git cat-file -s 8a0ab9556d2b4ed859ce5d616843f98e7c459f42 [2ms]
+2024-10-08 22:43:12.104 [info] > git show --textconv :portafolio-personal/introduccion/javascript/index.html [8ms]
+2024-10-08 22:43:12.175 [info] > git fetch [1381ms]
+2024-10-08 22:43:12.175 [info] git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-10-08 22:43:12.194 [info] > git config --get commit.template [12ms]
+2024-10-08 22:43:12.195 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-08 22:43:12.201 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/yonatancarrillo/.git/refs/remotes/origin/main'
+2024-10-08 22:43:12.204 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-10-08 22:43:12.220 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-10-08 22:43:14.925 [info] > git status -z -uall [2716ms] (cancelled)
+2024-10-08 22:44:20.736 [info] > git show --textconv :portafolio-personal/introduccion/javascript/arreglos.js [24ms]
+2024-10-08 22:44:20.741 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/arreglos.js [15ms]
+2024-10-08 22:44:20.756 [info] > git cat-file -s bbd144b1531217c04fa3a791418cb7a46a458c34 [8ms]
+2024-10-08 23:04:13.253 [info] > git fetch [1220ms]
+2024-10-08 23:04:13.253 [info] git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-10-08 23:04:13.271 [info] > git config --get commit.template [5ms]
+2024-10-08 23:04:13.295 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-10-08 23:04:13.310 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/yonatancarrillo/.git/refs/remotes/origin/main'
+2024-10-08 23:04:13.312 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/arreglos.js [19ms]
+2024-10-08 23:04:13.322 [info] > git rev-parse refs/remotes/origin/main [11ms]
+2024-10-08 23:04:13.372 [info] > git cat-file -s bbd144b1531217c04fa3a791418cb7a46a458c34 [52ms]
+2024-10-08 23:04:13.404 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [40ms]
+2024-10-08 23:04:13.454 [info] > git show --textconv :portafolio-personal/introduccion/javascript/arreglos.js [16ms]
+2024-10-08 23:04:15.794 [info] > git status -z -uall [2462ms] (cancelled)
+2024-10-08 23:07:06.073 [info] > git show --textconv :portafolio-personal/introduccion/javascript/index.html [21ms]
+2024-10-08 23:07:06.078 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/index.html [16ms]
+2024-10-08 23:07:06.094 [info] > git cat-file -s 8a0ab9556d2b4ed859ce5d616843f98e7c459f42 [6ms]
+2024-10-08 23:07:15.530 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/index.html [10ms]
+2024-10-08 23:07:15.544 [info] > git cat-file -s 8a0ab9556d2b4ed859ce5d616843f98e7c459f42 [5ms]
+2024-10-08 23:07:15.579 [info] > git show --textconv :portafolio-personal/introduccion/javascript/index.html [15ms]
+2024-10-08 23:07:15.871 [info] > git fetch [1625ms]
+2024-10-08 23:07:15.871 [info] git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-10-08 23:07:15.903 [info] > git config --get commit.template [16ms]
+2024-10-08 23:07:15.906 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-10-08 23:07:15.914 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/yonatancarrillo/.git/refs/remotes/origin/main'
+2024-10-08 23:07:15.917 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-10-08 23:07:15.959 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2024-10-08 23:07:18.370 [info] > git status -z -uall [2434ms] (cancelled)
+2024-10-08 23:08:13.306 [info] > git show --textconv :portafolio-personal/introduccion/javascript/estilos.css [16ms]
+2024-10-08 23:08:13.311 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/estilos.css [12ms]
+2024-10-08 23:08:13.330 [info] > git cat-file -s 2b3d1d274ebacaa264ce3224fecf56a3155ddc89 [13ms]
+2024-10-08 23:08:40.863 [info] > git show --textconv :portafolio-personal/introduccion/javascript/index.html [17ms]
+2024-10-08 23:08:40.873 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/index.html [12ms]
+2024-10-08 23:08:40.886 [info] > git cat-file -s 8a0ab9556d2b4ed859ce5d616843f98e7c459f42 [4ms]
+2024-10-08 23:10:22.275 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/index.html [7ms]
+2024-10-08 23:10:22.286 [info] > git cat-file -s 8a0ab9556d2b4ed859ce5d616843f98e7c459f42 [3ms]
+2024-10-08 23:10:22.305 [info] > git show --textconv :portafolio-personal/introduccion/javascript/index.html [6ms]
+2024-10-08 23:10:23.053 [info] > git fetch [2085ms]
+2024-10-08 23:10:23.053 [info] git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-10-08 23:10:23.080 [info] > git config --get commit.template [9ms]
+2024-10-08 23:10:23.083 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-10-08 23:10:23.091 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/yonatancarrillo/.git/refs/remotes/origin/main'
+2024-10-08 23:10:23.094 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-10-08 23:10:23.114 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-10-08 23:10:25.242 [info] > git status -z -uall [2142ms] (cancelled)
+2024-10-08 23:11:19.084 [info] > git show --textconv :portafolio-personal/introduccion/javascript/estilos.css [12ms]
+2024-10-08 23:11:19.090 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/estilos.css [14ms]
+2024-10-08 23:11:19.101 [info] > git cat-file -s 2b3d1d274ebacaa264ce3224fecf56a3155ddc89 [3ms]

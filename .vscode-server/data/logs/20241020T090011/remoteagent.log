@@ -1,0 +1,10 @@
+2024-10-20 09:00:11.738 [info] 
+
+
+
+
+2024-10-20 09:00:11.752 [info] Extension host agent started.
+2024-10-20 09:00:11.851 [info] [127.0.0.1][f6a99cc7][ManagementConnection] New connection established.
+2024-10-20 09:00:12.217 [info] Deleted uninstalled extension from disk ms-ceintl.vscode-language-pack-es /home/yonatancarrillo/.vscode-server/extensions/ms-ceintl.vscode-language-pack-es-1.94.2024100909
+2024-10-20 09:00:12.320 [info] [127.0.0.1][9299d231][ExtensionHostConnection] New connection established.
+2024-10-20 09:00:13.584 [info] [127.0.0.1][9299d231][ExtensionHostConnection] <2358> Launched Extension Host Process.

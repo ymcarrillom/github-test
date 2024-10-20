@@ -1,0 +1,26 @@
+2024-10-11 06:04:46.750 [info] 
+
+
+
+
+2024-10-11 06:04:46.787 [info] Extension host agent started.
+2024-10-11 06:04:47.451 [info] [127.0.0.1][1faa481d][ManagementConnection] New connection established.
+2024-10-11 06:04:48.548 [info] [127.0.0.1][558ac6bb][ExtensionHostConnection] New connection established.
+2024-10-11 06:04:48.717 [info] [127.0.0.1][558ac6bb][ExtensionHostConnection] <1143> Launched Extension Host Process.
+2024-10-11 06:04:54.265 [info] Getting Manifest... ms-ceintl.vscode-language-pack-es
+2024-10-11 06:04:54.601 [info] Installing extension: ms-ceintl.vscode-language-pack-es {"productVersion":{"version":"1.94.1","date":"2024-10-05T05:44:32.189Z"},"pinned":false,"operation":3,"isApplicationScoped":true,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/yonatancarrillo/.vscode-server/extensions/extensions.json","external":"file:///home/yonatancarrillo/.vscode-server/extensions/extensions.json","path":"/home/yonatancarrillo/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-10-11 06:04:58.589 [info] Extension signature verification result for ms-ceintl.vscode-language-pack-es: Success. Executed: true. Duration: 2917ms.
+2024-10-11 06:04:58.867 [info] Extracted extension to file:///home/yonatancarrillo/.vscode-server/extensions/ms-ceintl.vscode-language-pack-es-1.94.2024100909: ms-ceintl.vscode-language-pack-es
+2024-10-11 06:04:58.915 [info] Renamed to /home/yonatancarrillo/.vscode-server/extensions/ms-ceintl.vscode-language-pack-es-1.94.2024100909
+2024-10-11 06:04:58.939 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-es
+2024-10-11 06:04:59.013 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-es file:///home/yonatancarrillo/.vscode-server/extensions/extensions.json
+2024-10-11 06:06:15.520 [info] [127.0.0.1][558ac6bb][ExtensionHostConnection] <1143> [0mGET /favicon.ico [33m404[0m 3.603 ms - 150[0m
+
+2024-10-11 06:07:15.640 [info] [127.0.0.1][558ac6bb][ExtensionHostConnection] <1143> [0mGET /javascript/objetos.js [33m404[0m 2.969 ms - 160[0m
+
+2024-10-11 06:07:26.637 [info] [127.0.0.1][558ac6bb][ExtensionHostConnection] <1143> [0mGET /javascript/objetos.js [33m404[0m 1.462 ms - 160[0m
+
+2024-10-11 06:07:53.687 [info] [127.0.0.1][558ac6bb][ExtensionHostConnection] <1143> [0mGET /javascript/objetos.js [33m404[0m 4.343 ms - 160[0m
+
+2024-10-14 19:03:46.411 [info] [127.0.0.1][1faa481d][ManagementConnection] The client has reconnected.
+2024-10-14 19:03:47.075 [info] [127.0.0.1][558ac6bb][ExtensionHostConnection] The client has reconnected.

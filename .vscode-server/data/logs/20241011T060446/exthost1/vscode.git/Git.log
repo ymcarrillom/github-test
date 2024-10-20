@@ -1,0 +1,78 @@
+2024-10-11 06:04:53.196 [info] [main] Log level: Info
+2024-10-11 06:04:53.196 [info] [main] Validating found git in: "git"
+2024-10-11 06:04:53.196 [info] [main] Using git "2.43.0" from "git"
+2024-10-11 06:04:53.196 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-11 06:04:53.197 [info] > git rev-parse --show-toplevel [175ms]
+2024-10-11 06:04:53.197 [info] > git rev-parse --git-dir --git-common-dir [20ms]
+2024-10-11 06:04:53.197 [info] [Model][openRepository] Opened repository: /home/yonatancarrillo
+2024-10-11 06:04:53.201 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-11 06:04:53.206 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-11 06:04:53.207 [info] > git config --get commit.template [17ms]
+2024-10-11 06:04:53.331 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [109ms]
+2024-10-11 06:04:53.338 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/yonatancarrillo/.git/refs/remotes/origin/main'
+2024-10-11 06:04:53.375 [info] > git rev-parse refs/remotes/origin/main [38ms]
+2024-10-11 06:04:53.416 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [20ms]
+2024-10-11 06:04:53.850 [info] > git check-ignore -v -z --stdin [14ms]
+2024-10-11 06:04:54.021 [info] > git fetch [843ms]
+2024-10-11 06:04:54.021 [info] git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-10-11 06:04:54.063 [info] > git status -z -uall [676ms] (cancelled)
+2024-10-11 06:04:54.064 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [35ms]
+2024-10-11 06:04:54.080 [info] > git config --get commit.template [16ms]
+2024-10-11 06:04:54.080 [info] > git config --get commit.template [29ms]
+2024-10-11 06:04:54.082 [info] > git config --local branch.main.vscode-merge-base [14ms]
+2024-10-11 06:04:54.082 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-11 06:04:54.095 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-10-11 06:04:54.111 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/yonatancarrillo/.git/refs/remotes/origin/main'
+2024-10-11 06:04:54.112 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-10-11 06:04:54.129 [info] > git reflog main --grep-reflog=branch: Created from *. [44ms]
+2024-10-11 06:04:54.134 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [39ms]
+2024-10-11 06:04:54.141 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/yonatancarrillo/.git/refs/remotes/origin/main'
+2024-10-11 06:04:54.142 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2024-10-11 06:04:54.158 [info] > git rev-parse refs/remotes/origin/main [16ms]
+2024-10-11 06:04:54.167 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [34ms]
+2024-10-11 06:04:54.167 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-11 06:04:54.167 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-11 06:04:54.201 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [35ms]
+2024-10-11 06:04:54.202 [info] > git config --local branch.main.vscode-merge-base [55ms]
+2024-10-11 06:04:54.203 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-11 06:04:54.231 [info] > git merge-base refs/heads/main refs/remotes/origin/main [45ms]
+2024-10-11 06:04:54.488 [info] > git reflog main --grep-reflog=branch: Created from *. [282ms]
+2024-10-11 06:04:54.520 [info] > git diff --name-status -z --diff-filter=ADMR 49e58478b4d04713056e6d6b8c3c8eab88ffeca5...refs/remotes/origin/main [285ms]
+2024-10-11 06:04:54.523 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [29ms]
+2024-10-11 06:04:54.523 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-11 06:04:54.523 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-11 06:05:00.013 [info] > git status -z -uall [5851ms] (cancelled)
+2024-10-11 06:06:04.116 [info] > git check-ignore -v -z --stdin [400ms]
+2024-10-11 06:06:04.117 [info] > git show --textconv :portafolio-personal/introduccion/objetos.js [212ms]
+2024-10-11 06:06:04.145 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/objetos.js [172ms]
+2024-10-11 06:06:53.404 [info] > git show --textconv :portafolio-personal/introduccion/javascript/index.html [28ms]
+2024-10-11 06:06:53.405 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/index.html [22ms]
+2024-10-11 06:06:53.419 [info] > git cat-file -s 8a0ab9556d2b4ed859ce5d616843f98e7c459f42 [8ms]
+2024-10-11 06:07:23.413 [info] > git show --textconv :portafolio-personal/introduccion/objetos.js [6ms]
+2024-10-11 06:07:23.422 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/objetos.js [10ms]
+2024-10-11 06:07:28.165 [info] > git show --textconv :portafolio-personal/introduccion/javascript/index.html [6ms]
+2024-10-11 06:07:28.169 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/index.html [6ms]
+2024-10-11 06:07:28.176 [info] > git cat-file -s 8a0ab9556d2b4ed859ce5d616843f98e7c459f42 [3ms]
+2024-10-11 06:07:47.840 [info] > git show --textconv :portafolio-personal/introduccion/objetos.js [8ms]
+2024-10-11 06:07:47.850 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/objetos.js [10ms]
+2024-10-11 06:07:53.429 [info] > git show --textconv :portafolio-personal/introduccion/javascript/index.html [15ms]
+2024-10-11 06:07:53.441 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/index.html [14ms]
+2024-10-11 06:07:53.451 [info] > git cat-file -s 8a0ab9556d2b4ed859ce5d616843f98e7c459f42 [3ms]
+2024-10-11 06:08:08.435 [info] > git show --textconv :portafolio-personal/introduccion/javascript/objetos.js [18ms]
+2024-10-11 06:08:08.440 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/objetos.js [16ms]
+2024-10-11 06:08:08.571 [info] > git check-ignore -v -z --stdin [7ms]
+2024-10-11 06:08:11.881 [info] > git show --textconv :portafolio-personal/introduccion/javascript/index.html [16ms]
+2024-10-11 06:08:11.934 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/index.html [64ms]
+2024-10-11 06:08:11.944 [info] > git cat-file -s 8a0ab9556d2b4ed859ce5d616843f98e7c459f42 [4ms]
+2024-10-11 06:08:46.816 [info] > git show --textconv :portafolio-personal/introduccion/javascript/condicionales.js [14ms]
+2024-10-11 06:08:46.854 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/condicionales.js [38ms]
+2024-10-11 06:08:47.056 [info] > git check-ignore -v -z --stdin [7ms]
+2024-10-11 06:09:18.737 [info] > git show --textconv :portafolio-personal/introduccion/javascript/index.html [18ms]
+2024-10-11 06:09:18.749 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/index.html [17ms]
+2024-10-11 06:09:18.757 [info] > git cat-file -s 8a0ab9556d2b4ed859ce5d616843f98e7c459f42 [3ms]
+2024-10-11 06:11:21.995 [info] > git show --textconv :portafolio-personal/introduccion/javascript/condicionales.js [12ms]
+2024-10-11 06:11:22.010 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/condicionales.js [19ms]
