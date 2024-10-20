@@ -1,0 +1,9 @@
+logs/
+temp/
+secret.txt
+*.log          # Ignorar todos los archivos .log
+*.tmp          # Ignorar todos los archivos .tmp
+cache/*
+.env
+build/
+dist/

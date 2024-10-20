@@ -10,3 +10,22 @@
 2024-10-20 09:00:17.421 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
 2024-10-20 09:00:17.422 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
 2024-10-20 09:00:26.608 [warning] [Decorations] CAPPING events from decorations provider vscode.git 11321
+2024-10-20 09:01:13.295 [warning] [Decorations] CAPPING events from decorations provider vscode.git 12642
+2024-10-20 09:01:25.501 [warning] [Decorations] CAPPING events from decorations provider vscode.git 11321
+2024-10-20 09:01:31.871 [warning] [Decorations] CAPPING events from decorations provider vscode.git 11321
+2024-10-20 09:03:43.589 [warning] [Decorations] CAPPING events from decorations provider vscode.git 11321
+2024-10-20 09:04:02.906 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1205
+2024-10-20 09:04:45.505 [error] Error: Cannot call write after a stream was destroyed
+	at errorBuffer (node:internal/streams/writable:731:33)
+	at afterWrite (node:internal/streams/writable:712:5)
+	at onwrite (node:internal/streams/writable:686:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:88:12)
+2024-10-20 09:04:54.315 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-10-20 09:04:56.399 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-10-20 09:04:56.838 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-10-20 09:04:57.661 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1205
+2024-10-20 09:05:11.588 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-20 09:05:11.588 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-20 09:05:11.588 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-10-20 09:05:11.589 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-10-20 09:05:12.711 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
