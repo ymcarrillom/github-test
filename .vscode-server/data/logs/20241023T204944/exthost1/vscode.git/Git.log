@@ -269,3 +269,69 @@ fatal: Authentication failed for 'https://github.com/ymcarrillom/javascript_desd
 2024-10-23 20:52:36.091 [info] > git rev-parse refs/remotes/origin/main [1ms]
 2024-10-23 20:52:36.113 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
 2024-10-23 20:52:36.334 [info] > git status -z -uall [238ms]
+2024-10-23 20:52:40.637 [info] > git add -A -- /home/yonatancarrillo/.vscode-server/data/logs/20241023T204944/exthost1/vscode.git/Git.log [42ms]
+2024-10-23 20:52:40.648 [info] > git config --get commit.template [2ms]
+2024-10-23 20:52:40.656 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-23 20:52:40.662 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/yonatancarrillo/.git/refs/remotes/origin/main'
+2024-10-23 20:52:40.664 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-10-23 20:52:40.680 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-23 20:52:40.918 [info] > git status -z -uall [250ms]
+2024-10-23 20:52:49.255 [info] > git add -A -- . [2ms]
+2024-10-23 20:52:49.742 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/javarcritp-completo/javascript_desde_cero/.git/COMMIT_EDITMSG [3ms]
+2024-10-23 20:52:49.750 [info] > git show --textconv :.git/COMMIT_EDITMSG [18ms]
+2024-10-23 20:52:53.023 [info] > git check-ignore -v -z --stdin [3ms]
+2024-10-23 20:52:53.431 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/javarcritp-completo/javascript_desde_cero/.git/COMMIT_EDITMSG [1ms]
+2024-10-23 20:52:53.441 [info] > git show --textconv :.git/COMMIT_EDITMSG [2ms]
+2024-10-23 20:53:04.290 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [233ms]
+2024-10-23 20:53:04.298 [info] > git config --get commit.template [2ms]
+2024-10-23 20:53:04.321 [info] > git config --get commit.template [7ms]
+2024-10-23 20:53:04.323 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-23 20:53:04.339 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/yonatancarrillo/.git/refs/remotes/origin/main'
+2024-10-23 20:53:04.361 [info] > git rev-parse refs/remotes/origin/main [22ms]
+2024-10-23 20:53:04.402 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-10-23 20:53:04.694 [info] > git status -z -uall [323ms]
+2024-10-23 20:53:04.709 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2024-10-23 20:53:04.718 [info] > git diff --name-status -z --diff-filter=ADMR 49e58478b4d04713056e6d6b8c3c8eab88ffeca5...refs/remotes/origin/main [3ms]
+2024-10-23 20:53:04.800 [info] > git config --get commit.template [2ms]
+2024-10-23 20:53:04.809 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-23 20:53:04.816 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/yonatancarrillo/.git/refs/remotes/origin/main'
+2024-10-23 20:53:04.820 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-10-23 20:53:04.840 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-10-23 20:53:05.076 [info] > git status -z -uall [252ms]
+2024-10-23 20:53:05.989 [info] > git fetch [687ms]
+2024-10-23 20:53:05.989 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-10-23 20:53:06.010 [info] > git config --get commit.template [14ms]
+2024-10-23 20:53:06.013 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-10-23 20:53:06.018 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/yonatancarrillo/.git/refs/remotes/origin/main'
+2024-10-23 20:53:06.021 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-10-23 20:53:06.033 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-23 20:53:06.268 [info] > git status -z -uall [243ms]
+2024-10-23 20:53:06.503 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/javarcritp-completo/javascript_desde_cero/.git/COMMIT_EDITMSG [2ms]
+2024-10-23 20:53:06.515 [info] > git show --textconv :.git/COMMIT_EDITMSG [2ms]
+2024-10-23 20:53:08.375 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [7584ms]
+2024-10-23 20:53:18.119 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty [28859ms]
+2024-10-23 20:53:18.119 [info] Aborting commit due to empty commit message.
+2024-10-23 20:53:18.132 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-23 20:53:18.132 [info] > git config --get commit.template [9ms]
+2024-10-23 20:53:18.142 [info] > git status -z -uall [6ms]
+2024-10-23 20:53:18.144 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-23 20:53:29.161 [info] > git add -A -- /home/yonatancarrillo/.vscode-server/data/logs/20241023T204944/exthost1/vscode.git/Git.log [43ms]
+2024-10-23 20:53:29.173 [info] > git config --get commit.template [5ms]
+2024-10-23 20:53:29.175 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-23 20:53:29.179 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/yonatancarrillo/.git/refs/remotes/origin/main'
+2024-10-23 20:53:29.180 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-23 20:53:29.193 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-10-23 20:53:29.422 [info] > git status -z -uall [237ms]
+2024-10-23 20:53:34.589 [info] > git add -A -- /home/yonatancarrillo/.vscode-server/data/logs/20241023T204944/exthost1/remoteexthost.log [43ms]
+2024-10-23 20:53:34.599 [info] > git config --get commit.template [4ms]
+2024-10-23 20:53:34.601 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-23 20:53:34.605 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/yonatancarrillo/.git/refs/remotes/origin/main'
+2024-10-23 20:53:34.607 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-23 20:53:34.619 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-10-23 20:53:34.838 [info] > git status -z -uall [228ms]
