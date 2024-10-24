@@ -1,0 +1,90 @@
+2024-10-20 09:20:34.131 [info] [main] Log level: Info
+2024-10-20 09:20:34.131 [info] [main] Validating found git in: "git"
+2024-10-20 09:20:34.131 [info] [main] Using git "2.47.0" from "git"
+2024-10-20 09:20:34.131 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-20 09:20:34.131 [info] > git rev-parse --show-toplevel [88ms]
+2024-10-20 09:20:34.131 [info] > git rev-parse --git-dir --git-common-dir [11ms]
+2024-10-20 09:20:34.131 [info] [Model][openRepository] Opened repository: /home/yonatancarrillo
+2024-10-20 09:20:34.131 [info] > git config --get commit.template [12ms]
+2024-10-20 09:20:34.145 [info] > git rev-parse --show-toplevel [20ms]
+2024-10-20 09:20:34.176 [info] > git rev-parse --show-toplevel [15ms]
+2024-10-20 09:20:34.177 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [41ms]
+2024-10-20 09:20:34.196 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/yonatancarrillo/.git/refs/remotes/origin/main'
+2024-10-20 09:20:34.264 [info] > git rev-parse refs/remotes/origin/main [68ms]
+2024-10-20 09:20:34.287 [info] > git rev-parse --show-toplevel [98ms]
+2024-10-20 09:20:34.317 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [31ms]
+2024-10-20 09:20:34.320 [info] > git rev-parse --git-dir --git-common-dir [16ms]
+2024-10-20 09:20:34.338 [info] [Model][openRepository] Opened repository: /home/yonatancarrillo/portafolio-personal/introduccion/javascript/javascript_desde_cero
+2024-10-20 09:20:34.421 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-20 09:20:34.574 [info] > git config --get commit.template [59ms]
+2024-10-20 09:20:34.652 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-10-20 09:20:34.652 [warning] [Git][getBranch] No such branch: main
+2024-10-20 09:20:34.706 [info] > git status -z -uall [23ms]
+2024-10-20 09:20:34.707 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-10-20 09:20:34.833 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [59ms]
+2024-10-20 09:20:34.834 [warning] [Git][getBranch] No such branch: main
+2024-10-20 09:20:34.835 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2024-10-20 09:20:34.912 [info] > git config --get commit.template [90ms]
+2024-10-20 09:20:34.930 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2024-10-20 09:20:34.930 [warning] [Git][getBranch] No such branch: main
+2024-10-20 09:20:35.165 [info] > git status -z -uall [228ms]
+2024-10-20 09:20:35.212 [info] > git fetch [1111ms]
+2024-10-20 09:20:35.212 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-10-20 09:20:35.227 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [268ms]
+2024-10-20 09:20:35.248 [info] > git status -z -uall [975ms] (cancelled)
+2024-10-20 09:20:35.248 [info] > git check-ignore -v -z --stdin [70ms]
+2024-10-20 09:20:35.249 [info] > git check-ignore -v -z --stdin [51ms]
+2024-10-20 09:20:35.270 [info] > git config --get commit.template [24ms]
+2024-10-20 09:20:35.270 [info] > git config --get commit.template [29ms]
+2024-10-20 09:20:35.271 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [47ms]
+2024-10-20 09:20:35.290 [info] > git show --textconv :portafolio-personal/introduccion/javascript/.gitignore [26ms]
+2024-10-20 09:20:35.290 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/.gitignore [21ms]
+2024-10-20 09:20:35.315 [info] > git config --local branch.main.vscode-merge-base [33ms]
+2024-10-20 09:20:35.315 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-20 09:20:35.322 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-10-20 09:20:35.323 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-10-20 09:20:35.323 [info] > git cat-file -s a42d127a9b9ca44d5f0582aee973653ec8cc3cca [27ms]
+2024-10-20 09:20:35.324 [info] > git fetch [987ms]
+2024-10-20 09:20:35.324 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-10-20 09:20:35.338 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/yonatancarrillo/.git/refs/remotes/origin/main'
+2024-10-20 09:20:35.343 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/yonatancarrillo/.git/refs/remotes/origin/main'
+2024-10-20 09:20:35.371 [info] > git config --get commit.template [18ms]
+2024-10-20 09:20:35.371 [info] > git rev-parse refs/remotes/origin/main [28ms]
+2024-10-20 09:20:35.377 [info] > git rev-parse refs/remotes/origin/main [39ms]
+2024-10-20 09:20:35.387 [info] > git reflog main --grep-reflog=branch: Created from *. [68ms]
+2024-10-20 09:20:35.403 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+2024-10-20 09:20:35.404 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2024-10-20 09:20:35.417 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [16ms]
+2024-10-20 09:20:35.417 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-20 09:20:35.418 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-20 09:20:35.450 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [34ms]
+2024-10-20 09:20:35.450 [warning] [Git][getBranch] No such branch: main
+2024-10-20 09:20:35.465 [info] > git config --local branch.main.vscode-merge-base [55ms]
+2024-10-20 09:20:35.465 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-20 09:20:35.471 [info] > git status -z -uall [11ms]
+2024-10-20 09:20:35.472 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2024-10-20 09:20:35.475 [info] > git merge-base refs/heads/main refs/remotes/origin/main [28ms]
+2024-10-20 09:20:35.488 [info] > git reflog main --grep-reflog=branch: Created from *. [18ms]
+2024-10-20 09:20:35.500 [info] > git diff --name-status -z --diff-filter=ADMR 49e58478b4d04713056e6d6b8c3c8eab88ffeca5...refs/remotes/origin/main [16ms]
+2024-10-20 09:20:35.502 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [9ms]
+2024-10-20 09:20:35.502 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-20 09:20:35.502 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-20 09:20:35.728 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/.gitignore [48ms]
+2024-10-20 09:20:35.744 [info] > git cat-file -s a42d127a9b9ca44d5f0582aee973653ec8cc3cca [3ms]
+2024-10-20 09:20:35.798 [info] > git show --textconv :portafolio-personal/introduccion/javascript/.gitignore [19ms]
+2024-10-20 09:20:42.860 [info] > git status -z -uall [7479ms]
+2024-10-20 09:20:45.126 [info] > git show --textconv :portafolio-personal/introduccion/javascript/arreglos.js [239ms]
+2024-10-20 09:20:45.127 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/introduccion/javascript/arreglos.js [235ms]
+2024-10-20 09:20:45.197 [info] > git cat-file -s bbd144b1531217c04fa3a791418cb7a46a458c34 [46ms]

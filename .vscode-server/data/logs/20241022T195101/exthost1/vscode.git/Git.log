@@ -1,0 +1,171 @@
+2024-10-22 19:51:10.287 [info] [main] Log level: Info
+2024-10-22 19:51:10.287 [info] [main] Validating found git in: "git"
+2024-10-22 19:51:10.287 [info] [main] Using git "2.47.0" from "git"
+2024-10-22 19:51:10.287 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-22 19:51:10.287 [info] > git rev-parse --show-toplevel [230ms]
+2024-10-22 19:51:10.287 [info] > git rev-parse --git-dir --git-common-dir [245ms]
+2024-10-22 19:51:10.287 [info] [Model][openRepository] Opened repository: /home/yonatancarrillo/portafolio-personal/javarcritp-completo/javascript_desde_cero
+2024-10-22 19:51:10.287 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-22 19:51:10.651 [info] > git config --get commit.template [340ms]
+2024-10-22 19:51:10.701 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [40ms]
+2024-10-22 19:51:10.729 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-10-22 19:51:10.744 [info] > git status -z -uall [33ms]
+2024-10-22 19:51:10.789 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2024-10-22 19:51:10.815 [info] > git config --get commit.template [31ms]
+2024-10-22 19:51:10.836 [info] > git config --local branch.main.vscode-merge-base [32ms]
+2024-10-22 19:51:10.836 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-22 19:51:10.844 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-10-22 19:51:10.999 [info] > git status -z -uall [141ms]
+2024-10-22 19:51:10.999 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [133ms]
+2024-10-22 19:51:11.017 [info] > git reflog main --grep-reflog=branch: Created from *. [175ms]
+2024-10-22 19:51:11.039 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2024-10-22 19:51:11.052 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [15ms]
+2024-10-22 19:51:11.052 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-22 19:51:11.052 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-22 19:51:11.068 [info] > git config --local branch.main.vscode-merge-base [18ms]
+2024-10-22 19:51:11.068 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-22 19:51:11.085 [info] > git merge-base refs/heads/main refs/remotes/origin/main [19ms]
+2024-10-22 19:51:11.144 [info] > git diff --name-status -z --diff-filter=ADMR 0dd0f8b0c9fe97aef57edff1dc7e5ec0a5133b55...refs/remotes/origin/main [4ms]
+2024-10-22 19:51:11.160 [info] > git reflog main --grep-reflog=branch: Created from *. [70ms]
+2024-10-22 19:51:11.280 [info] > git check-ignore -v -z --stdin [75ms]
+2024-10-22 19:51:11.302 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [124ms]
+2024-10-22 19:51:11.302 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-22 19:51:11.302 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-22 19:51:12.074 [info] > git show --textconv :return.js [6ms]
+2024-10-22 19:51:12.082 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/javarcritp-completo/javascript_desde_cero/return.js [9ms]
+2024-10-22 19:51:25.207 [info] > git fetch [1139ms]
+2024-10-22 19:51:25.207 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-10-22 19:51:25.221 [info] > git config --get commit.template [6ms]
+2024-10-22 19:51:25.225 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-10-22 19:51:25.239 [info] > git status -z -uall [8ms]
+2024-10-22 19:51:25.241 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-10-22 19:51:25.278 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/javarcritp-completo/javascript_desde_cero/return.js [2ms]
+2024-10-22 19:51:25.287 [info] > git show --textconv :return.js [2ms]
+2024-10-22 19:51:32.684 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [64ms]
+2024-10-22 19:51:34.864 [info] > git add -A -- /home/yonatancarrillo/portafolio-personal/javarcritp-completo/javascript_desde_cero/return.js [6ms]
+2024-10-22 19:51:34.872 [info] > git config --get commit.template [4ms]
+2024-10-22 19:51:34.874 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-10-22 19:51:34.881 [info] > git status -z -uall [4ms]
+2024-10-22 19:51:34.883 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-10-22 19:51:35.891 [info] > git add -A -- /home/yonatancarrillo/portafolio-personal/javarcritp-completo/javascript_desde_cero/index.html /home/yonatancarrillo/portafolio-personal/javarcritp-completo/javascript_desde_cero/parametros.js [8ms]
+2024-10-22 19:51:35.900 [info] > git config --get commit.template [4ms]
+2024-10-22 19:51:35.901 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-10-22 19:51:35.909 [info] > git status -z -uall [4ms]
+2024-10-22 19:51:35.911 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-10-22 19:51:35.963 [info] > git config --get commit.template [2ms]
+2024-10-22 19:51:35.968 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-10-22 19:51:35.978 [info] > git status -z -uall [6ms]
+2024-10-22 19:51:35.980 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-10-22 19:51:37.090 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/javarcritp-completo/javascript_desde_cero/return.js [2ms]
+2024-10-22 19:51:37.095 [info] > git cat-file -s 7fff0cd6c09bf6571ba13b240099b8431fa53a83 [1ms]
+2024-10-22 19:51:37.105 [info] > git show --textconv :return.js [2ms]
+2024-10-22 19:52:05.654 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [23ms]
+2024-10-22 19:52:05.660 [info] > git config --get commit.template [2ms]
+2024-10-22 19:52:05.676 [info] > git config --get commit.template [6ms]
+2024-10-22 19:52:05.680 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-10-22 19:52:05.695 [info] > git status -z -uall [6ms]
+2024-10-22 19:52:05.696 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-22 19:52:05.726 [info] > git merge-base refs/heads/main refs/remotes/origin/main [13ms]
+2024-10-22 19:52:05.733 [info] > git diff --name-status -z --diff-filter=ADMR 0dd0f8b0c9fe97aef57edff1dc7e5ec0a5133b55...refs/remotes/origin/main [2ms]
+2024-10-22 19:52:05.790 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [5ms]
+2024-10-22 19:52:05.829 [info] > git config --get commit.template [15ms]
+2024-10-22 19:52:05.830 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-22 19:52:05.875 [info] > git status -z -uall [6ms]
+2024-10-22 19:52:05.885 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2024-10-22 19:52:06.877 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/javarcritp-completo/javascript_desde_cero/return.js [2ms]
+2024-10-22 19:52:06.882 [info] > git cat-file -s 7fff0cd6c09bf6571ba13b240099b8431fa53a83 [2ms]
+2024-10-22 19:52:06.892 [info] > git show --textconv :return.js [2ms]
+2024-10-22 19:52:08.367 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/javarcritp-completo/javascript_desde_cero/return.js [3ms]
+2024-10-22 19:52:08.373 [info] > git cat-file -s 7fff0cd6c09bf6571ba13b240099b8431fa53a83 [1ms]
+2024-10-22 19:52:08.383 [info] > git show --textconv :return.js [2ms]
+2024-10-22 19:52:19.629 [info] > git pull --tags origin main [12465ms]
+2024-10-22 19:52:19.629 [info] git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-10-22 19:52:19.643 [info] > git config --get commit.template [6ms]
+2024-10-22 19:52:19.644 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-22 19:52:19.657 [info] > git status -z -uall [9ms]
+2024-10-22 19:52:19.661 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-10-22 19:56:26.780 [info] > git fetch [647ms]
+2024-10-22 19:56:26.780 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-10-22 19:56:26.789 [info] > git config --get commit.template [5ms]
+2024-10-22 19:56:26.790 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-22 19:56:26.798 [info] > git status -z -uall [5ms]
+2024-10-22 19:56:26.800 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-10-22 19:56:27.334 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/javarcritp-completo/javascript_desde_cero/return.js [2ms]
+2024-10-22 19:56:27.339 [info] > git cat-file -s 7fff0cd6c09bf6571ba13b240099b8431fa53a83 [2ms]
+2024-10-22 19:56:27.348 [info] > git show --textconv :return.js [2ms]
+2024-10-22 20:00:02.456 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/javarcritp-completo/javascript_desde_cero/return.js [2ms]
+2024-10-22 20:00:02.461 [info] > git cat-file -s 7fff0cd6c09bf6571ba13b240099b8431fa53a83 [1ms]
+2024-10-22 20:00:02.471 [info] > git show --textconv :return.js [3ms]
+2024-10-22 20:00:02.583 [info] > git fetch [1320ms]
+2024-10-22 20:00:02.583 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-10-22 20:00:02.594 [info] > git config --get commit.template [4ms]
+2024-10-22 20:00:02.595 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-22 20:00:02.605 [info] > git status -z -uall [6ms]
+2024-10-22 20:00:02.607 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-10-22 20:03:58.291 [info] > git fetch [707ms]
+2024-10-22 20:03:58.291 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-10-22 20:03:58.300 [info] > git config --get commit.template [5ms]
+2024-10-22 20:03:58.304 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-10-22 20:03:58.314 [info] > git status -z -uall [6ms]
+2024-10-22 20:03:58.318 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-10-22 20:03:58.842 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/javarcritp-completo/javascript_desde_cero/return.js [7ms]
+2024-10-22 20:03:58.847 [info] > git cat-file -s 7fff0cd6c09bf6571ba13b240099b8431fa53a83 [2ms]
+2024-10-22 20:03:58.857 [info] > git show --textconv :return.js [3ms]
+2024-10-22 20:04:06.690 [info] > git config --get commit.template [6ms]
+2024-10-22 20:04:06.692 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-22 20:04:06.702 [info] > git status -z -uall [6ms]
+2024-10-22 20:04:06.704 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-10-22 20:04:06.719 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2024-10-22 20:04:06.732 [info] > git diff --name-status -z --diff-filter=ADMR 2d5f96ba489b70cd8d48f9b68eab3730406a5e7b...refs/remotes/origin/main [3ms]
+2024-10-22 20:04:06.810 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [11ms]
+2024-10-22 20:04:07.884 [info] > git config --get commit.template [4ms]
+2024-10-22 20:04:07.886 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-22 20:04:07.900 [info] > git status -z -uall [9ms]
+2024-10-22 20:04:07.901 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-22 20:04:07.990 [info] > git ls-files --stage -- /home/yonatancarrillo/portafolio-personal/javarcritp-completo/javascript_desde_cero/return.js [6ms]
+2024-10-22 20:04:07.997 [info] > git cat-file -s 7fff0cd6c09bf6571ba13b240099b8431fa53a83 [1ms]
+2024-10-22 20:04:08.007 [info] > git show --textconv :return.js [3ms]
+2024-10-22 20:07:16.658 [info] > git fetch [734ms]
+2024-10-22 20:07:16.659 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-10-22 20:07:16.668 [info] > git config --get commit.template [6ms]
+2024-10-22 20:07:16.670 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-22 20:07:16.679 [info] > git status -z -uall [5ms]
+2024-10-22 20:07:16.682 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-10-22 20:08:06.528 [info] > git config --get commit.template [4ms]
+2024-10-22 20:08:06.529 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-22 20:08:06.539 [info] > git status -z -uall [6ms]
+2024-10-22 20:08:06.541 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]

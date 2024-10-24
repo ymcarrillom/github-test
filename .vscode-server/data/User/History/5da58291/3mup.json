@@ -1,0 +1,9 @@
+{
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.autofetch": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "git.openRepositoryInParentFolders": "always",
+    "git.ignoreRebaseWarning": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "git.confirmSync": false
+}

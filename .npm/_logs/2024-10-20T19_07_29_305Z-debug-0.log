@@ -1,0 +1,32 @@
+0 verbose cli /home/yonatancarrillo/.nvm/versions/node/v20.18.0/bin/node /home/yonatancarrillo/.nvm/versions/node/v20.18.0/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.18.0
+3 silly config load:file:/home/yonatancarrillo/.nvm/versions/node/v20.18.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/yonatancarrillo/.cache/typescript/5.6/.npmrc
+5 silly config load:file:/home/yonatancarrillo/.npmrc
+6 silly config load:file:/home/yonatancarrillo/.nvm/versions/node/v20.18.0/etc/npmrc
+7 verbose title npm install types-registry@latest
+8 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+9 verbose logfile logs-max:10 dir:/home/yonatancarrillo/.npm/_logs/2024-10-20T19_07_29_305Z-
+10 verbose logfile /home/yonatancarrillo/.npm/_logs/2024-10-20T19_07_29_305Z-debug-0.log
+11 silly packumentCache heap:1588592640 maxSize:397148160 maxEntrySize:198574080
+12 silly logfile done cleaning log files
+13 silly packumentCache corgi:https://registry.npmjs.org/types-registry cache-miss
+14 http fetch GET 200 https://registry.npmjs.org/types-registry 464ms (cache revalidated)
+15 silly packumentCache corgi:https://registry.npmjs.org/types-registry set size:582892 disposed:false
+16 silly idealTree buildDeps
+17 silly fetch manifest types-registry@0.1.691
+18 silly packumentCache full:https://registry.npmjs.org/types-registry cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/types-registry 105ms (cache revalidated)
+20 silly packumentCache full:https://registry.npmjs.org/types-registry set size:1213802 disposed:false
+21 silly placeDep ROOT types-registry@0.1.691 REPLACE for:  want: 0.1.691
+22 silly reify moves {}
+23 silly audit bulk request { 'types-registry': [ '0.1.691' ] }
+24 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 164ms
+25 silly audit report {}
+26 verbose cwd /home/yonatancarrillo/.cache/typescript/5.6
+27 verbose os Linux 5.15.153.1-microsoft-standard-WSL2
+28 verbose node v20.18.0
+29 verbose npm  v10.8.2
+30 verbose exit 0
+31 info ok

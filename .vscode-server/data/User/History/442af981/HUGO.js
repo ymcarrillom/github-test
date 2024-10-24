@@ -1,0 +1,10 @@
+// form 1
+// function saludo (){
+//     console.log('hola mundo')
+// }
+
+
+//form #2 -- signando una funcion a una variable
+const saludo = function(){
+    console.log('hola desde variable')
+}

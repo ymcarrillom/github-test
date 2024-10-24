@@ -8,3 +8,28 @@
 2024-10-20 09:00:12.217 [info] Deleted uninstalled extension from disk ms-ceintl.vscode-language-pack-es /home/yonatancarrillo/.vscode-server/extensions/ms-ceintl.vscode-language-pack-es-1.94.2024100909
 2024-10-20 09:00:12.320 [info] [127.0.0.1][9299d231][ExtensionHostConnection] New connection established.
 2024-10-20 09:00:13.584 [info] [127.0.0.1][9299d231][ExtensionHostConnection] <2358> Launched Extension Host Process.
+2024-10-20 09:04:38.968 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:07:32.621 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:07:54.573 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:08:12.945 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:08:34.790 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:08:53.052 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:09:11.403 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:09:34.950 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:10:25.119 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:10:47.003 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:11:08.829 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:11:27.175 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:11:48.998 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:12:07.198 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:12:29.052 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:12:47.263 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:13:09.275 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:14:14.265 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:15:42.861 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:16:04.940 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:16:23.521 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:17:21.353 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:17:43.564 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:18:01.789 [info] [127.0.0.1][9299d231][ExtensionHostConnection] The client has reconnected.
+2024-10-20 09:18:23.669 [info] [127.0.0.1][f6a99cc7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.

@@ -1,0 +1,11 @@
+2024-10-23 20:49:44.466 [info] 
+
+
+
+
+2024-10-23 20:49:44.484 [info] Extension host agent started.
+2024-10-23 20:49:44.573 [info] [127.0.0.1][37438126][ManagementConnection] New connection established.
+2024-10-23 20:49:45.214 [info] [127.0.0.1][1f7dabf9][ExtensionHostConnection] New connection established.
+2024-10-23 20:49:47.629 [info] [127.0.0.1][1f7dabf9][ExtensionHostConnection] <2098> Launched Extension Host Process.
+2024-10-23 20:50:17.216 [error] [File Watcher] Unexpected error: inotify_add_watch on '/home/yonatancarrillo/.vscode-server/data/logs/20241008T223231/exthost1/vscode.json-language-features' failed: No such file or directory (EUNKNOWN) (path: /home/yonatancarrillo)
+2024-10-23 20:50:17.217 [error] [File Watcher (universal)] inotify_add_watch on '/home/yonatancarrillo/.vscode-server/data/logs/20241008T223231/exthost1/vscode.json-language-features' failed: No such file or directory

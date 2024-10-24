@@ -1,0 +1,38 @@
+2024-10-20 09:24:11.961 [info] 
+
+
+
+
+2024-10-20 09:24:11.981 [info] Extension host agent started.
+2024-10-20 09:24:12.104 [info] [127.0.0.1][6179a765][ManagementConnection] New connection established.
+2024-10-20 09:24:12.711 [info] [127.0.0.1][bf7ac99c][ExtensionHostConnection] New connection established.
+2024-10-20 09:24:17.708 [info] [127.0.0.1][bf7ac99c][ExtensionHostConnection] <31344> Launched Extension Host Process.
+2024-10-20 09:25:39.771 [info] [127.0.0.1][90bfb859][ManagementConnection] New connection established.
+2024-10-20 09:25:40.370 [info] [127.0.0.1][c8fa6b94][ExtensionHostConnection] New connection established.
+2024-10-20 09:25:40.378 [info] [127.0.0.1][c8fa6b94][ExtensionHostConnection] <31692> Launched Extension Host Process.
+2024-10-20 09:25:51.219 [info] [127.0.0.1][90bfb859][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-20 09:25:51.366 [info] [127.0.0.1][c8fa6b94][ExtensionHostConnection] <31692> Extension Host Process exited with code: 0, signal: null.
+2024-10-20 09:27:25.994 [info] [127.0.0.1][47176a4d][ManagementConnection] New connection established.
+2024-10-20 09:27:26.695 [info] [127.0.0.1][716c0fae][ExtensionHostConnection] New connection established.
+2024-10-20 09:27:26.717 [info] [127.0.0.1][716c0fae][ExtensionHostConnection] <32143> Launched Extension Host Process.
+2024-10-20 09:27:48.186 [info] [127.0.0.1][47176a4d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-20 09:27:51.953 [info] [127.0.0.1][716c0fae][ExtensionHostConnection] <32143> Extension Host Process exited with code: 0, signal: null.
+2024-10-20 10:19:23.069 [info] [127.0.0.1][6179a765][ManagementConnection] The client has reconnected.
+2024-10-20 10:19:23.285 [info] [127.0.0.1][bf7ac99c][ExtensionHostConnection] The client has reconnected.
+2024-10-20 14:05:14.850 [info] [127.0.0.1][bf7ac99c][ExtensionHostConnection] The client has reconnected.
+2024-10-20 14:05:14.911 [info] [127.0.0.1][6179a765][ManagementConnection] The client has reconnected.
+2024-10-20 14:07:56.135 [info] [127.0.0.1][bf7ac99c][ExtensionHostConnection] <31344> [0mGET /favicon.ico [33m404[0m 5.986 ms - 150[0m
+
+2024-10-20 14:09:03.785 [info] [127.0.0.1][bf7ac99c][ExtensionHostConnection] <31344> [0mGET /swcht.js [33m404[0m 2.192 ms - 147[0m
+
+2024-10-20 14:09:23.679 [info] [127.0.0.1][bf7ac99c][ExtensionHostConnection] <31344> [0mGET /swcht.js [33m404[0m 2.260 ms - 147[0m
+
+2024-10-20 14:09:24.218 [info] [127.0.0.1][bf7ac99c][ExtensionHostConnection] <31344> [0mGET /swcht.js [33m404[0m 2.408 ms - 147[0m
+
+2024-10-20 14:15:21.840 [info] Getting Manifest... rvest.vs-code-prettier-eslint
+2024-10-20 14:15:22.100 [info] Installing extension: rvest.vs-code-prettier-eslint {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/yonatancarrillo/.vscode-server/extensions/extensions.json","external":"file:///home/yonatancarrillo/.vscode-server/extensions/extensions.json","path":"/home/yonatancarrillo/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.94.2","date":"2024-10-09T16:08:44.566Z"}}
+2024-10-20 14:15:28.448 [info] Extension signature verification result for rvest.vs-code-prettier-eslint: Success. Executed: true. Duration: 4423ms.
+2024-10-20 14:15:28.816 [info] Extracted extension to file:///home/yonatancarrillo/.vscode-server/extensions/rvest.vs-code-prettier-eslint-6.0.0: rvest.vs-code-prettier-eslint
+2024-10-20 14:15:28.825 [info] Renamed to /home/yonatancarrillo/.vscode-server/extensions/rvest.vs-code-prettier-eslint-6.0.0
+2024-10-20 14:15:28.840 [info] Extension installed successfully: rvest.vs-code-prettier-eslint file:///home/yonatancarrillo/.vscode-server/extensions/extensions.json
+2024-10-20 16:19:52.126 [info] [127.0.0.1][6179a765][ManagementConnection] The client has disconnected

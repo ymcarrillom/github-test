@@ -1,0 +1,215 @@
+2024-10-23 20:49:14.402 [info] Extension host with pid 1520 started
+2024-10-23 20:49:14.470 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-23 20:49:14.519 [info] Lock '/home/yonatancarrillo/.vscode-server/data/User/workspaceStorage/b73060aca5e6e870505db44b2025e46a/vscode.lock': Lock acquired.
+2024-10-23 20:49:14.559 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-23 20:49:14.560 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-23 20:49:15.015 [info] Eager extensions activated
+2024-10-23 20:49:15.016 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-23 20:49:15.017 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-23 20:49:15.018 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-10-23 20:49:15.019 [info] ExtensionService#_doActivateExtension rvest.vs-code-prettier-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-10-23 20:49:15.456 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-23 20:49:17.600 [info] Extension host terminating: received terminate message from renderer
+2024-10-23 20:49:17.601 [info] Lock '/home/yonatancarrillo/.vscode-server/data/User/workspaceStorage/b73060aca5e6e870505db44b2025e46a/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-10-23 20:49:17.828 [error] Canceled: Canceled
+	at new eA (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:151177)
+	at Zb.U (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:155789)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:153283)
+	at T0.g (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:32325)
+	at T0.executeCommand (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at r.registerCommand.description (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:31156)
+	at T0.h (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:32845)
+	at T0.g (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:31919)
+	at T0.executeCommand (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at Object.executeCommand (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:156:37049)
+	at gh.O [as value] (/home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/main.js:2:953034)
+	at T.B (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at T.C (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:802)
+	at T.fire (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:1019)
+	at Object.p [as dispose] (/home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/main.js:2:973612)
+	at /home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/main.js:2:979734
+	at Array.forEach (<anonymous>)
+	at f.dispose (/home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/main.js:2:979720)
+	at D1.<anonymous> (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:108:19996)
+	at D1.dispose (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:108:20092)
+	at D1.<anonymous> (/home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/main.js:2:955332)
+	at D1.dispose (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:108:20092)
+	at Si (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:24:701)
+	at file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:118:14995
+	at file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:24:1011
+	at Object.dispose (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at hB.eb (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:118:11922)
+	at file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:118:9877
+	at Array.map (<anonymous>)
+	at hB.$ (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:118:9865)
+	at hB.terminate (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:118:10108)
+	at M3.terminate (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at ps (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:174:15058)
+	at gh.value (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:174:13218)
+	at T.B (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at T.fire (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:950)
+	at no.fire (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:9399)
+	at Im.A (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:12515)
+	at gh.value (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:10935)
+	at T.B (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at T.fire (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:950)
+	at m5.acceptChunk (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:7880)
+	at gh.value (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:7166)
+	at T.B (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at T.fire (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:950)
+	at _2.z (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:21892)
+	at _2.acceptFrame (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:21698)
+	at z2.n (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:20224)
+	at file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:17454
+	at Socket.t (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:15393)
+	at Socket.emit (node:events:519:28)
+	at addChunk (node:internal/streams/readable:559:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+	at Readable.push (node:internal/streams/readable:390:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2024-10-23 20:49:17.829 [error] Canceled: Canceled
+	at new eA (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:151177)
+	at Zb.U (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:155789)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:153283)
+	at T0.g (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:32325)
+	at T0.executeCommand (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at r.registerCommand.description (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:31156)
+	at T0.h (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:32845)
+	at T0.g (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:31919)
+	at T0.executeCommand (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at Object.executeCommand (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:156:37049)
+	at gh.O [as value] (/home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/main.js:2:953034)
+	at T.B (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at T.C (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:802)
+	at T.fire (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:1019)
+	at Object.p [as dispose] (/home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/main.js:2:973612)
+	at /home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/main.js:2:979734
+	at Array.forEach (<anonymous>)
+	at f.dispose (/home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/main.js:2:979720)
+	at D1.<anonymous> (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:108:19996)
+	at D1.dispose (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:108:20092)
+	at D1.<anonymous> (/home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/main.js:2:955332)
+	at D1.dispose (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:108:20092)
+	at Si (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:24:701)
+	at file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:118:14995
+	at file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:24:1011
+	at Object.dispose (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at hB.eb (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:118:11922)
+	at file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:118:9877
+	at Array.map (<anonymous>)
+	at hB.$ (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:118:9865)
+	at hB.terminate (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:118:10108)
+	at M3.terminate (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at ps (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:174:15058)
+	at gh.value (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:174:13218)
+	at T.B (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at T.fire (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:950)
+	at no.fire (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:9399)
+	at Im.A (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:12515)
+	at gh.value (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:10935)
+	at T.B (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at T.fire (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:950)
+	at m5.acceptChunk (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:7880)
+	at gh.value (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:7166)
+	at T.B (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at T.fire (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:950)
+	at _2.z (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:21892)
+	at _2.acceptFrame (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:21698)
+	at z2.n (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:20224)
+	at file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:17454
+	at Socket.t (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:15393)
+	at Socket.emit (node:events:519:28)
+	at addChunk (node:internal/streams/readable:559:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+	at Readable.push (node:internal/streams/readable:390:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2024-10-23 20:49:17.842 [error] Canceled: Canceled
+	at new eA (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:151177)
+	at Zb.U (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:155789)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:153283)
+	at T0.g (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:32325)
+	at T0.executeCommand (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at r.registerCommand.description (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:31156)
+	at T0.h (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:32845)
+	at T0.g (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:31919)
+	at T0.executeCommand (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at Object.executeCommand (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:156:37049)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/github/dist/extension.js:2:321578)
+	at /home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/github/dist/extension.js:2:322537
+	at gh.value (/home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/main.js:2:1061875)
+	at T.B (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at T.C (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:802)
+	at T.fire (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:1019)
+	at Object.p [as dispose] (/home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/main.js:2:973612)
+	at /home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/main.js:2:979734
+	at Array.forEach (<anonymous>)
+	at f.dispose (/home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/main.js:2:979720)
+	at D1.<anonymous> (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:108:19996)
+	at D1.dispose (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:108:20092)
+	at D1.<anonymous> (/home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/main.js:2:955332)
+	at D1.dispose (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:108:20092)
+	at Si (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:24:701)
+	at file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:118:14995
+	at file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:24:1011
+	at Object.dispose (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at hB.eb (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:118:11922)
+	at file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:118:9877
+	at Array.map (<anonymous>)
+	at hB.$ (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:118:9865)
+	at hB.terminate (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:118:10108)
+	at M3.terminate (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at ps (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:174:15058)
+	at gh.value (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:174:13218)
+	at T.B (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at T.fire (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:950)
+	at no.fire (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:9399)
+	at Im.A (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:12515)
+	at gh.value (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:10935)
+	at T.B (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at T.fire (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:950)
+	at m5.acceptChunk (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:7880)
+	at gh.value (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:7166)
+	at T.B (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at T.fire (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:29:950)
+	at _2.z (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:21892)
+	at _2.acceptFrame (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:21698)
+	at z2.n (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:20224)
+	at file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:17454
+	at Socket.t (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:15393)
+	at Socket.emit (node:events:519:28)
+	at addChunk (node:internal/streams/readable:559:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+	at Readable.push (node:internal/streams/readable:390:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2024-10-23 20:49:17.843 [error] ProxyResolver#addCertificatesV1 Canceled: Canceled
+	at new eA (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:151177)
+	at Zb.U (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:155789)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:31:153283)
+	at p0.loadCertificates (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:109:52728)
+	at Object.loadAdditionalCertificates (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:158:2086)
+	at /home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node_modules/@vscode/proxy-agent/out/index.js:499:53
+	at Generator.next (<anonymous>)
+	at /home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node_modules/@vscode/proxy-agent/out/index.js:35:71
+	at new Promise (<anonymous>)
+	at __awaiter (/home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node_modules/@vscode/proxy-agent/out/index.js:31:12)
+	at /home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node_modules/@vscode/proxy-agent/out/index.js:498:43
+	at /home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node_modules/@vscode/proxy-agent/out/index.js:500:16
+	at Generator.next (<anonymous>)
+	at /home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node_modules/@vscode/proxy-agent/out/index.js:35:71
+	at new Promise (<anonymous>)
+	at __awaiter (/home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node_modules/@vscode/proxy-agent/out/index.js:31:12)
+	at getOrLoadAdditionalCertificates (/home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node_modules/@vscode/proxy-agent/out/index.js:496:12)
+	at addCertificatesV1 (/home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node_modules/@vscode/proxy-agent/out/index.js:480:9)
+	at resolveProxy (/home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node_modules/@vscode/proxy-agent/out/index.js:113:9)
+	at /home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node_modules/@vscode/proxy-agent/out/index.js:325:77
+	at new Promise (<anonymous>)
+	at _PacProxyAgent.resolveP [as resolver] (/home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node_modules/@vscode/proxy-agent/out/index.js:325:54)
+	at _PacProxyAgent.<anonymous> (/home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node_modules/@vscode/proxy-agent/out/agent.js:70:37)
+	at Generator.next (<anonymous>)
+	at /home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node_modules/@vscode/proxy-agent/out/agent.js:8:71
+	at new Promise (<anonymous>)
+	at __awaiter (/home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node_modules/@vscode/proxy-agent/out/agent.js:4:12)
+	at _PacProxyAgent.connect (/home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node_modules/@vscode/proxy-agent/out/agent.js:52:16)
+	at /home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node_modules/agent-base/dist/index.js:132:30
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-23 20:49:17.843 [info] Extension host with pid 1520 exiting with code 0

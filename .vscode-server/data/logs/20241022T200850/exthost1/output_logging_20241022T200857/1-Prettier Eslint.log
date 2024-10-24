@@ -1,0 +1,16 @@
+Error: Could not warm up worker. Formatting a file for the first time may take longer than usual.
+Message: Cannot find module 'prettier-eslint'
+Require stack:
+- /home/yonatancarrillo/.vscode-server/extensions/rvest.vs-code-prettier-eslint-6.0.0/dist/extension.js
+- /home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js
+Stacktrace: Error: Cannot find module 'prettier-eslint'
+Require stack:
+- /home/yonatancarrillo/.vscode-server/extensions/rvest.vs-code-prettier-eslint-6.0.0/dist/extension.js
+- /home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+	at t._resolveFilename (file:///home/yonatancarrillo/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:166:22704)
+	at Function.resolve (node:internal/modules/helpers:190:19)
+	at Ve (/home/yonatancarrillo/.vscode-server/extensions/rvest.vs-code-prettier-eslint-6.0.0/dist/extension.js:1:12704)
+	at Zt (/home/yonatancarrillo/.vscode-server/extensions/rvest.vs-code-prettier-eslint-6.0.0/dist/extension.js:2:487)
+	at /home/yonatancarrillo/.vscode-server/extensions/rvest.vs-code-prettier-eslint-6.0.0/dist/extension.js:2:718
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
